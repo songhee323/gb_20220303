@@ -1,0 +1,9 @@
+1. DBMS설치
+  - Oracle 11g R2
+  - Tibero
+
+2. Oracle 설치 확인
+  - winkey + R + cmd
+  - sqlplus
+  - id / pw : system / 1234(설치시 재팅)
+

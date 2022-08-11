@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"https://velog.io/@ksy1376/JSP-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-5-%EC%83%81%ED%92%88-%EC%83%81%EC%84%B8-%EC%A0%95%EB%B3%B4
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="User">
+	<insert id="join" parameterType="userdto">
+		INSERT INTO "user" VALUES (#{userid}, #{userpw}, #{username}, #{userphone}, #{useraddr})
+	</insert>
+	
+</mapper>
